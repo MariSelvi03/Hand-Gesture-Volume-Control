@@ -44,11 +44,10 @@
     - **`hand_gesture_volume_control.py`**: The main script for capturing video, detecting hand gestures, and controlling the volume.
     - **`requirements.txt`**: Lists all the Python packages required to run the project.
     - **`README.md`**: Provides an overview of the project, installation instructions, usage instructions, and explanations of the files 
-    and folders.
+      and folders.
 
    **Additional Information**
    - **Dependencies:**
      - **opencv-python**: For real-time computer vision.
      - **mediapipe**: For hand gesture detection and tracking.
-
-    ---
+---
