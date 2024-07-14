@@ -1,60 +1,53 @@
-# Hand Gesture Detection
+## Hand Gesture Volume Control
 
-This is a simple hand gesture detection project using OpenCV and MediaPipe.
+  This project uses computer vision and machine learning to detect hand gestures and control the volume on your computer. It leverages 
+  OpenCV for video capture and MediaPipe for hand tracking.
 
-## Features
+## Project Setup and Structure
 
-- Detects hand gestures in real-time using your webcam.
-- Draws landmarks on detected hands.
+   **Installation Instructions**
+   1. **Clone the repository:**
 
-## Installation
+   ```sh
+   git clone https://github.com/yourusername/hand-gesture-volume-control.git
+   cd hand-gesture-volume-control
+   ```
 
-1. **Clone the repository:**
+   2. **Create and activate a virtual environment:**
 
-    ```bash
-    git clone https://github.com/yourusername/hand-gesture-detection.git
-    cd hand-gesture-detection
-    ```
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   ```
 
-2. **Create and activate a virtual environment:**
+   3. **Install the dependencies:**
 
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
+   ```sh
+   pip install -r requirements.txt
+   ```
+   **Usage**
+  1. **Run the Python script:**
 
-3. **Install the dependencies:**
+  ```sh
+  python hand_gesture_volume_control.py
+  ```
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+  2. **Control the volume using hand gestures:**
 
-## Usage 
+  - Open your hand in front of the camera to increase the volume.
+  - Close your hand to decrease the volume.
+    
+  **Explanation of Files and Folders**
+    - **`images/`**: This folder contains the output images from the hand detection and gesture recognition process.
+    - **`gesture_detection_example.png`**: Example image showing hand landmarks and gesture detection.
+    - **`hand_gesture_volume_control.py`**: The main script for capturing video, detecting hand gestures, and controlling the volume.
+    - **`requirements.txt`**: Lists all the Python packages required to run the project.
+    - **`README.md`**: Provides an overview of the project, installation instructions, usage instructions, and explanations of the files 
+    and folders.
 
-1. **Run the hand gesture detection script:**
+   **Additional Information**
+   - **Dependencies:**
+     - **opencv-python**: For real-time computer vision.
+     - **mediapipe**: For hand gesture detection and tracking.
 
-    ```bash
-    python src/hand_gesture_detection.py
-    ```
-
-2. **Interact with the Webcam:**
-
-   - The script will open your front camera and start detecting hand gestures.
-   - You should see real-time hand landmarks drawn on the video feed.
-   - Press 'q' to close the webcam window and stop the script.
-
-## Directory Structure
-
-- **`src/`** : Contains the main Python script for hand gesture detection.
-   - `hand_gesture_detection.py` : The primary script for capturing video from the front camera and detecting hand gestures using MediaPipe.
-- **`images/`** : Contains example output images and screenshots.
-- **`requirements.txt`** : Lists the Python dependencies.
-- **`README.md`** : Provides an overview of the project.
-
-## Additional Information
-
-   - Dependencies:
-     - **`opencv-python`** : For capturing video and image processing.
-     - **`mediapipe`** : For hand gesture detection and drawing landmarks.
-
----
+    ---
