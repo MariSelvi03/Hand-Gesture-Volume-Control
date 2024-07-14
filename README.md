@@ -45,16 +45,16 @@ This is a simple hand gesture detection project using OpenCV and MediaPipe.
 
 ## Directory Structure
 
-- `src/`: Contains the main Python script for hand gesture detection.
+- **`src/`** : Contains the main Python script for hand gesture detection.
    - `hand_gesture_detection.py` : The primary script for capturing video from the front camera and detecting hand gestures using MediaPipe.
-- `images/`: Contains example output images and screenshots.
-- `requirements.txt`: Lists the Python dependencies.
-- `README.md`: Provides an overview of the project.
+- **`images/`** : Contains example output images and screenshots.
+- **`requirements.txt`** : Lists the Python dependencies.
+- **`README.md`** : Provides an overview of the project.
 
 ## Additional Information
 
    - Dependencies:
      - **`opencv-python`** : For capturing video and image processing.
-     - `mediapipe` : For hand gesture detection and drawing landmarks.
+     - **`mediapipe`** : For hand gesture detection and drawing landmarks.
 
 ---
