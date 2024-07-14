@@ -38,6 +38,7 @@
   - Close your hand to decrease the volume.
     
   **Explanation of Files and Folders**
+  
     - **`images/`**: This folder contains the output images from the hand detection and gesture recognition process.
     - **`gesture_detection_example.png`**: Example image showing hand landmarks and gesture detection.
     - **`hand_gesture_volume_control.py`**: The main script for capturing video, detecting hand gestures, and controlling the volume.
