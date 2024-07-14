@@ -35,6 +35,7 @@
   2. **Control the volume using hand gestures:**
 
   - Open your hand in front of the camera to increase the volume.
+    
   - Close your hand to decrease the volume.
     
   ## Explanation of Files and Folders
@@ -52,6 +53,7 @@
 
   ## Additional Information 
    - **Dependencies:**
-     - **opencv-python**: For real-time computer vision.
+     
+     - **opencv-python**: For real-time computer vision.  
      - **mediapipe**: For hand gesture detection and tracking.
 ---
