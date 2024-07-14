@@ -1,4 +1,4 @@
-## Hand Gesture Volume Control
+# Hand Gesture Volume Control
 
   This project uses computer vision and machine learning to detect hand gestures and control the volume on your computer. It leverages 
   OpenCV for video capture and MediaPipe for hand tracking.
@@ -37,7 +37,7 @@
   - Open your hand in front of the camera to increase the volume.
   - Close your hand to decrease the volume.
     
-  **Explanation of Files and Folders**
+  ## Explanation of Files and Folders
   
     - **`images/`**: This folder contains the output images from the hand detection and gesture recognition process.
     - **`gesture_detection_example.png`**: Example image showing hand landmarks and gesture detection.
@@ -46,7 +46,7 @@
     - **`README.md`**: Provides an overview of the project, installation instructions, usage instructions, and explanations of the files 
       and folders.
 
-   **Additional Information**
+  ## Additional Information 
    - **Dependencies:**
      - **opencv-python**: For real-time computer vision.
      - **mediapipe**: For hand gesture detection and tracking.
