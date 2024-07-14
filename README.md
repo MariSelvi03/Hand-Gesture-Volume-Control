@@ -54,7 +54,7 @@ This is a simple hand gesture detection project using OpenCV and MediaPipe.
 ## Additional Information
 
    - Dependencies:
-     - `opencv-python` : For capturing video and image processing.
+     - **`opencv-python`** : For capturing video and image processing.
      - `mediapipe` : For hand gesture detection and drawing landmarks.
 
 ---
